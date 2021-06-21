@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>Chat app</title>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="assets/logo2.png" alt="logo">
+    <nav>
+      <ul class="nav__links">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Download</a>
+        </li>
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="contact" href="#"><button>Contact</button></a>
+  </header>
+  <main class="container">
+    <div class="main__description">
+      <p class="header">A simple set-up, automatic synchronization with your phone contacts, and an experience rich in
+        features and
+        free of advertisements make ChatApp an extremely popular messaging app.</p>
+      <p class="text">Users can send text, photo, and video messages as well as voice memos, benefiting from end-to-end
+        encryption and two-step verification.</p>
+      <div class="functions__container">
+        <div class="android__container">
+          <i class="fab fa-android"></i>
+          <p>Android</p>
+        </div>
+        <div class="iphone__container">
+          <i class="fas fa-mobile-alt"></i>
+          <p>iPhone</p>
+        </div>
+        <div class="mac__container">
+          <i class="fas fa-laptop"></i>
+          <p>Mac</p>
+        </div>
+      </div>
+    </div>
+    <div class="main__app">
+      <div class="app__header">
+        <div class="app__header-image">
+          <img class="photo" src="assets/FilipHR.png" alt="Filip Ruszala">
+        </div>
+        <div class="active">
+          <h4>Filip Ruszala</h4>
+          <h6>is typing...</h6>
+        </div>
+        <div class="app__header-icons">
+          <i class="fas fa-phone"></i>
+          <i class="fas fa-video"></i>
+          <i class="fas fa-info-circle"></i>
+        </div>
+      </div>
+      <div class="chat-page">
+        <div class="msg-inbox">
+          <div class="chats">
+            <div class="msg-page">
+
+              <!---RECEIVED CHATS-->
+
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <!-- <img class="photo-small" src="assets/FilipHR.png" alt="Filip Ruszala"> -->
+                </div>
+                <div class="received-msg">
+                  <div class=received-msg-inbox>
+                    <!-- <p></p>
+                    <span class='time'></span> -->
+                  </div>
+                </div>
+              </div>
+
+              <!---OUTGOING CHATS-->
+
+              <!-- ... -->
+
+            </div>
+          </div>
+        </div>
+
+        <!---BOTTOM MESSAGE-->
+
+        <div class="msg-bottom">
+          <div class="bottom-icons">
+            <i class="fas fa-plus-circle"></i>
+            <i class="fas fa-camera"></i>
+            <i class="fas fa-microphone"></i>
+            <i class="fas fa-smile"></i>
+          </div>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="type message...">
+            <span class="input-group-text">
+              <i class="fas fa-paper-plane"></i>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
